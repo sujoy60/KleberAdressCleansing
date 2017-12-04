@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="41c9cee5-2785-44e0-8463-bfa5f1610420" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://kleber.datatoolscloud.net.au/KleberWebServiceSoap/DtKleberService.svc?wsdl " Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="DtKleberSoapService.wsdl" MetadataType="Wsdl" ID="f8a7881f-c916-4b24-8985-8524bee40090" SourceId="1" SourceUrl="http://kleber.datatoolscloud.net.au/KleberWebServiceSoap/DtKleberService.svc?wsdl" />
+    <MetadataFile FileName="DtKleberService.xsd" MetadataType="Schema" ID="65d26f34-6812-4dcb-baa2-421e5144fc6d" SourceId="1" SourceUrl="http://kleber.datatoolscloud.net.au/KleberWebServiceSoap/DtKleberService.svc?xsd=xsd0" />
+    <MetadataFile FileName="DtKleberService1.xsd" MetadataType="Schema" ID="f7f5e9f8-fc2e-4edb-84e4-d1eea4c60459" SourceId="1" SourceUrl="http://kleber.datatoolscloud.net.au/KleberWebServiceSoap/DtKleberService.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
